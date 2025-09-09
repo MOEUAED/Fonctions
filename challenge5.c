@@ -17,7 +17,7 @@ int main (){
     if (n < 0) {
         printf("Ereur.\n");
     } else {
-        printf("Factorielle de %d = %d\n", n, factorielle(n));
+        printf("Factorielle de %d = %lld\n", n, factorielle(n));
     }
 
     return 0;
